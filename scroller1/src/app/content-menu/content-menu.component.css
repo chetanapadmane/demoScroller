@@ -1,0 +1,15 @@
+.link{
+    height: 1em;
+    width: 1em;
+    margin: .2em;
+    border: 1px solid grey;   
+}
+.main-link{
+    height: 1.5em;
+    width: 1.5em;
+    margin: 1em;
+    border: 1px solid blue; 
+}
+.active-link{
+    background-color: aqua;
+}

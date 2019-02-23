@@ -1,0 +1,11 @@
+.contents{
+    border: 1px solid red;
+}
+.quetion-container{
+    border: 1px solid gray;
+    margin: 5rem;
+}
+.content-menu{
+    position: fixed;
+    margin: 5rem;
+}

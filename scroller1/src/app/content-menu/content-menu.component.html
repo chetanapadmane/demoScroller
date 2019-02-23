@@ -1,0 +1,9 @@
+<div>
+  <div *ngFor="let que of questions">
+    <div class="main-link">
+      <a href="#{{que.key}}" (click)="linkClick(que)">
+        <div class="link" [ngClass]="{'active-link':que.isVisible}"></div>
+      </a>
+    </div>
+  </div>
+</div>

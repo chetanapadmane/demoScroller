@@ -1,0 +1,16 @@
+<div class="container contents">
+  <div class="row">
+    <div class="col-md-4">
+      <app-content-menu class="content-menu" [questions]="questions"></app-content-menu>
+    </div>
+    <div class="col-md-8" #questionTracker>
+      <div class="quetion-container" *ngFor="let que of questions; let i = index" id="{{que.key}}">
+        <app-question [question]="que" [index]="i"></app-question>
+      </div>
+    </div>
+
+  </div>
+
+</div>
+
+<router-outlet></router-outlet>
